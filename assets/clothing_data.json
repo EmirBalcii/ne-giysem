@@ -1,28 +1,74 @@
 {
   "tarzlar": {
-    "Günlük": [
-      { "min_temp": 30, "max_temp": 50, "recommendation": "Çok ince şort, askılı veya oversize ince tişört, sandalet, güneş gözlüğü ve şapka. 🩳👕🕶️" },
-      { "min_temp": 22, "max_temp": 30, "recommendation": "Şort veya hafif keten pantolon, kısa kollu tişört veya polo yaka tişört, hafif spor ayakkabı. 👕🩳👟" },
-      { "min_temp": 16, "max_temp": 22, "recommendation": "Kot pantolon, uzun kollu ince tişört, üzerine hafif bir gömlek ceket (overshirt) ve sneaker ayakkabı. 👖👕" },
-      { "min_temp": 10, "max_temp": 16, "recommendation": "Kot pantolon, sweatshirt veya ince hırka, üzerine hafif bir rüzgârlık veya kot ceket ve spor ayakkabı. 🧥👖" },
-      { "min_temp": 0, "max_temp": 10, "recommendation": "Kalın kazak veya termal sweatshirt, kalın mont veya kaban, kot pantolon, kışlık bot ve atkı. 🧥👖👢" },
-      { "min_temp": -50, "max_temp": 0, "recommendation": "Termal içlik, en kalın kazak, rüzgâr ve su geçirmez şişme mont, bere, eldiven, atkı ve kalın tabanlı kışlık bot. 🥶🧤🧥" }
-    ],
-    "Klasik": [
-      { "min_temp": 30, "max_temp": 50, "recommendation": "Çok ince keten kısa kollu gömlek, ince kumaştan şort veya şort etek, nefes alan loafer veya şık sandalet. 👔🩳" },
-      { "min_temp": 22, "max_temp": 30, "recommendation": "İnce keten veya pamuklu uzun kollu gömlek (kolları katlanabilir), chino pantolon, loafer veya süet ayakkabı. Yazın en şık kombini. 👔" },
-      { "min_temp": 16, "max_temp": 22, "recommendation": "Klasik pamuklu gömlek, kumaş veya chino pantolon, üzerine ince bir blazer ceket ve deri ayakkabı. 🧥👔👞" },
-      { "min_temp": 10, "max_temp": 16, "recommendation": "Gömlek üzerine ince triko kazak (v yaka veya bisiklet yaka), kumaş pantolon, mevsimlik şık bir trençkot veya süet ceket. 🧥👔" },
-      { "min_temp": 0, "max_temp": 10, "recommendation": "Balıkçı yaka triko kazak, kumaş pantolon, üzerine uzun kaşe kaban ve şık klasik deri bot. 🧥👔👞" },
-      { "min_temp": -50, "max_temp": 0, "recommendation": "Termal gömlek ve kalın yün süveter, kalın kumaş pantolon, uzun yün kaşe palto, yün atkı, eldiven ve içi kürklü klasik bot. 🧥🧣" }
-    ],
-    "Spor": [
-      { "min_temp": 30, "max_temp": 50, "recommendation": "Nefes alan (dry-fit) spor atlet veya tişört, koşu şortu, ince spor çorabı ve hava alan koşu ayakkabısı. 🏃‍♂️👟" },
-      { "min_temp": 22, "max_temp": 30, "recommendation": "Hafif tişört, penye şort veya ince spor tayt/eşofman altı, rahat yürüyüş ayakkabısı. 👟👕" },
-      { "min_temp": 16, "max_temp": 22, "recommendation": "İnce eşofman takımı veya kapüşonlu ince rüzgârlık, tişört ve spor sneaker ayakkabı. 🏃‍♂️" },
-      { "min_temp": 10, "max_temp": 16, "recommendation": "Kalın eşofman altı, kapüşonlu sweatshirt (hoodie), üzerine bomber ceket veya spor yelek ve yüksek tabanlı spor ayakkabı. 👕👖" },
-      { "min_temp": 0, "max_temp": 10, "recommendation": "Kalın, içi polarlı eşofman takımı, şişme spor mont, spor bere ve outdoor/trekking botu. 🧥🧤" },
-      { "min_temp": -50, "max_temp": 0, "recommendation": "Termal spor içlik, polar üst, kalın su geçirmez outdoor mont, kar maskesi/bere, termal eldiven ve kışlık outdoor bot. 🥶🎿" }
-    ]
+    "Erkek": {
+      "Günlük": [
+        { "min_temp": 35, "max_temp": 50, "recommendation": "Çok ince keten pantolon veya kapri, askılı veya file tişört, terlik/sandalet, güneş gözlüğü ve şapka şart. Bol su iç. 🥵👕🕶️" },
+        { "min_temp": 28, "max_temp": 35, "recommendation": "Çok ince keten pantolon, oversize ince tişört, sandalet, güneş gözlüğü ve şapka. 👖👕🕶️" },
+        { "min_temp": 22, "max_temp": 28, "recommendation": "Hafif keten pantolon, kısa kollu tişört veya polo yaka tişört, hafif spor ayakkabı. 👕👖👟" },
+        { "min_temp": 17, "max_temp": 22, "recommendation": "İnce kumaş pantolon veya kot, kısa kollu tişört, akşamlara karşı omuza atılacak ince bir gömlek. 👕👖" },
+        { "min_temp": 12, "max_temp": 17, "recommendation": "Kot pantolon, uzun kollu ince tişört, üzerine hafif bir gömlek ceket (overshirt) ve sneaker ayakkabı. 👖👕" },
+        { "min_temp": 7, "max_temp": 12, "recommendation": "Kot pantolon, sweatshirt veya ince hırka, üzerine hafif bir rüzgârlık veya kot ceket ve spor ayakkabı. 🧥👖" },
+        { "min_temp": 2, "max_temp": 7, "recommendation": "Kalın sweatshirt veya ince kazak, üzerine astarlı mont, kot/kumaş pantolon, kapalı ayakkabı ve ince bere. 🧥🧣" },
+        { "min_temp": -5, "max_temp": 2, "recommendation": "Kalın kazak veya termal sweatshirt, kalın mont veya kaban, kot pantolon, kışlık bot ve atkı. 🧥👖👢" },
+        { "min_temp": -50, "max_temp": -5, "recommendation": "Termal içlik, en kalın kazak, rüzgâr ve su geçirmez şişme mont, bere, eldiven, atkı ve kalın tabanlı kışlık bot. 🥶🧤🧥" }
+      ],
+      "Klasik": [
+        { "min_temp": 35, "max_temp": 50, "recommendation": "Çok ince keten gömlek (kolsuz/file dokulu), ince keten pantolon, hafif espadril, şapka ve güneş gözlüğü. 🥵👔🕶️" },
+        { "min_temp": 28, "max_temp": 35, "recommendation": "Çok ince keten kısa kollu gömlek, ince kumaştan keten pantolon, nefes alan loafer veya şık sandalet. 👔👖" },
+        { "min_temp": 22, "max_temp": 28, "recommendation": "İnce keten veya pamuklu uzun kollu gömlek (kolları katlanabilir), chino pantolon, loafer veya süet ayakkabı. Yazın en şık kombini. 👔" },
+        { "min_temp": 17, "max_temp": 22, "recommendation": "Pamuklu gömlek, ince chino pantolon, hafif örme bir kazak veya yelek ile tamamlanabilir, deri ayakkabı. 👔👞" },
+        { "min_temp": 12, "max_temp": 17, "recommendation": "Klasik pamuklu gömlek, kumaş veya chino pantolon, üzerine ince bir blazer ceket ve deri ayakkabı. 🧥👔👞" },
+        { "min_temp": 7, "max_temp": 12, "recommendation": "Gömlek üzerine ince triko kazak (v yaka veya bisiklet yaka), kumaş pantolon, mevsimlik şık bir trençkot veya süet ceket. 🧥👔" },
+        { "min_temp": 2, "max_temp": 7, "recommendation": "Gömlek ve kalın triko kazak ikilisi, kumaş pantolon, kaşe blazer veya kısa kaban, yün atkı ve klasik bot. 🧥🧣👞" },
+        { "min_temp": -5, "max_temp": 2, "recommendation": "Balıkçı yaka triko kazak, kumaş pantolon, üzerine uzun kaşe kaban ve şık klasik deri bot. 🧥👔👞" },
+        { "min_temp": -50, "max_temp": -5, "recommendation": "Termal gömlek ve kalın yün süveter, kalın kumaş pantolon, uzun yün kaşe palto, yün atkı, eldiven ve içi kürklü klasik bot. 🧥🧣" }
+      ],
+      "Spor": [
+        { "min_temp": 35, "max_temp": 50, "recommendation": "Çok hafif dry-fit tişört, ince koşu şortu boyunda olmayan hafif eşofman altı, bone/şapka ve güneş gözlüğü; gölgede ve serin saatlerde spor yap. 🥵🏃‍♂️🕶️" },
+        { "min_temp": 28, "max_temp": 35, "recommendation": "Nefes alan (dry-fit) spor tişört, ince kumaştan hafif eşofman altı, ince spor çorabı ve hava alan koşu ayakkabısı. 🏃‍♂️👟" },
+        { "min_temp": 22, "max_temp": 28, "recommendation": "Hafif tişört, ince kumaştan eşofman altı, rahat yürüyüş ayakkabısı. 👟👕" },
+        { "min_temp": 17, "max_temp": 22, "recommendation": "Kısa veya ince uzun kollu spor tişört, hafif eşofman altı, üzerine ince file rüzgârlık. 👕🏃‍♂️" },
+        { "min_temp": 12, "max_temp": 17, "recommendation": "İnce eşofman takımı veya kapüşonlu ince rüzgârlık, tişört ve spor sneaker ayakkabı. 🏃‍♂️" },
+        { "min_temp": 7, "max_temp": 12, "recommendation": "Kalın eşofman altı, kapüşonlu sweatshirt (hoodie), üzerine bomber ceket veya spor yelek ve yüksek tabanlı spor ayakkabı. 👕👖" },
+        { "min_temp": 2, "max_temp": 7, "recommendation": "Termal alt katman, kalın hoodie veya polar, su geçirmez ince spor mont, ince bere ve eldiven. 🧥🧤" },
+        { "min_temp": -5, "max_temp": 2, "recommendation": "Kalın, içi polarlı eşofman takımı, şişme spor mont, spor bere ve outdoor/trekking botu. 🧥🧤" },
+        { "min_temp": -50, "max_temp": -5, "recommendation": "Termal spor içlik, polar üst, kalın su geçirmez outdoor mont, kar maskesi/bere, termal eldiven ve kışlık outdoor bot. 🥶🎿" }
+      ]
+    },
+    "Kadın": {
+      "Günlük": [
+        { "min_temp": 35, "max_temp": 50, "recommendation": "Çok ince keten salaş pantolon, askılı veya file tişört, terlik/sandalet, güneş gözlüğü ve şapka şart. Bol su iç. 🥵👕🕶️" },
+        { "min_temp": 28, "max_temp": 35, "recommendation": "Hafif viskon veya keten pantolon, askılı bluz veya oversize tişört, sandalet, güneş gözlüğü ve şapka. 👖👕🕶️" },
+        { "min_temp": 22, "max_temp": 28, "recommendation": "Hafif kumaş pantolon veya uzun yazlık elbise, kısa kollu bluz/tişört, hafif sandalet veya spor ayakkabı. 👗👕👟" },
+        { "min_temp": 17, "max_temp": 22, "recommendation": "İnce kumaş pantolon veya kot, kısa kollu bluz, akşamlara karşı omuza atılacak ince bir hırka. 👕👖" },
+        { "min_temp": 12, "max_temp": 17, "recommendation": "Kot pantolon, uzun kollu ince bluz, üzerine hafif bir gömlek ceket (overshirt) veya hırka ve sneaker ayakkabı. 👖👕" },
+        { "min_temp": 7, "max_temp": 12, "recommendation": "Kot pantolon, sweatshirt veya ince hırka, üzerine hafif bir rüzgârlık veya kot ceket ve spor ayakkabı. 🧥👖" },
+        { "min_temp": 2, "max_temp": 7, "recommendation": "Kalın sweatshirt veya ince kazak, üzerine astarlı mont, kot/kumaş pantolon, kapalı ayakkabı ve ince bere. 🧥🧣" },
+        { "min_temp": -5, "max_temp": 2, "recommendation": "Kalın kazak veya termal sweatshirt, kalın mont veya kaban, kot pantolon, kışlık bot ve atkı. 🧥👖👢" },
+        { "min_temp": -50, "max_temp": -5, "recommendation": "Termal içlik, en kalın kazak, rüzgâr ve su geçirmez şişme mont, bere, eldiven, atkı ve kalın tabanlı kışlık bot. 🥶🧤🧥" }
+      ],
+      "Klasik": [
+        { "min_temp": 35, "max_temp": 50, "recommendation": "Çok ince keten gömlek veya bluz, ince keten salaş pantolon veya maxi elbise, hafif espadril, şapka ve güneş gözlüğü. 🥵👗🕶️" },
+        { "min_temp": 28, "max_temp": 35, "recommendation": "İnce keten gömlek/bluz, ince kumaştan pantolon veya yazlık midi elbise, nefes alan babet veya şık sandalet. 👗👖" },
+        { "min_temp": 22, "max_temp": 28, "recommendation": "İnce keten veya pamuklu bluz, kumaş pantolon veya midi elbise, babet veya süet ayakkabı. Yazın en şık kombini. 👗" },
+        { "min_temp": 17, "max_temp": 22, "recommendation": "Pamuklu gömlek/bluz, ince kumaş pantolon, hafif örme bir kazak veya yelek ile tamamlanabilir, deri ayakkabı. 👔👞" },
+        { "min_temp": 12, "max_temp": 17, "recommendation": "Klasik bluz, kumaş pantolon, üzerine ince bir blazer ceket ve deri ayakkabı/bot. 🧥👔👞" },
+        { "min_temp": 7, "max_temp": 12, "recommendation": "Bluz üzerine ince triko kazak (v yaka veya bisiklet yaka), kumaş pantolon, mevsimlik şık bir trençkot ve bot. 🧥👔" },
+        { "min_temp": 2, "max_temp": 7, "recommendation": "Bluz ve kalın triko kazak ikilisi, kumaş pantolon, kaşe blazer veya kısa kaban, yün atkı ve klasik bot. 🧥🧣👞" },
+        { "min_temp": -5, "max_temp": 2, "recommendation": "Balıkçı yaka triko kazak, kumaş pantolon, üzerine uzun kaşe kaban ve şık klasik bot. 🧥👔👞" },
+        { "min_temp": -50, "max_temp": -5, "recommendation": "Termal gömlek ve kalın yün süveter, kalın kumaş pantolon, uzun yün kaşe palto, yün atkı, eldiven ve içi kürklü bot. 🧥🧣" }
+      ],
+      "Spor": [
+        { "min_temp": 35, "max_temp": 50, "recommendation": "Çok hafif dry-fit atlet/tişört, ince spor tayt veya eşofman altı, bone/şapka ve güneş gözlüğü; gölgede ve serin saatlerde spor yap. 🥵🏃‍♀️🕶️" },
+        { "min_temp": 28, "max_temp": 35, "recommendation": "Nefes alan (dry-fit) spor büstiyer/tişört, ince spor tayt veya eşofman altı, ince spor çorabı ve hava alan koşu ayakkabısı. 🏃‍♀️👟" },
+        { "min_temp": 22, "max_temp": 28, "recommendation": "Hafif tişört, ince spor tayt/eşofman altı, rahat yürüyüş ayakkabısı. 👟👕" },
+        { "min_temp": 17, "max_temp": 22, "recommendation": "Kısa veya ince uzun kollu spor tişört, hafif eşofman altı/tayt, üzerine ince file rüzgârlık. 👕🏃‍♀️" },
+        { "min_temp": 12, "max_temp": 17, "recommendation": "İnce eşofman takımı veya kapüşonlu ince rüzgârlık, tişört ve spor sneaker ayakkabı. 🏃‍♀️" },
+        { "min_temp": 7, "max_temp": 12, "recommendation": "Kalın eşofman altı, kapüşonlu sweatshirt (hoodie), üzerine bomber ceket veya spor yelek ve yüksek tabanlı spor ayakkabı. 👕👖" },
+        { "min_temp": 2, "max_temp": 7, "recommendation": "Termal alt katman, kalın hoodie veya polar, su geçirmez ince spor mont, ince bere ve eldiven. 🧥🧤" },
+        { "min_temp": -5, "max_temp": 2, "recommendation": "Kalın, içi polarlı eşofman takımı, şişme spor mont, spor bere ve outdoor/trekking botu. 🧥🧤" },
+        { "min_temp": -50, "max_temp": -5, "recommendation": "Termal spor içlik, polar üst, kalın su geçirmez outdoor mont, kar maskesi/bere, termal eldiven ve kışlık outdoor bot. 🥶🎿" }
+      ]
+    }
   }
 }
